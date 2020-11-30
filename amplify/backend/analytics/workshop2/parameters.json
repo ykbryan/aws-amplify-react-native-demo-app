@@ -1,0 +1,21 @@
+{
+    "appName": "workshop2",
+    "roleName": "pinpointLambdaRoleb60a36ee",
+    "cloudformationPolicyName": "cloudformationPolicyb60a36ee",
+    "cloudWatchPolicyName": "cloudWatchPolicyb60a36ee",
+    "pinpointPolicyName": "pinpointPolicyb60a36ee",
+    "authPolicyName": "pinpoint_amplify_b60a36ee",
+    "unauthPolicyName": "pinpoint_amplify_b60a36ee",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
