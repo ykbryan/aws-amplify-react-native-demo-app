@@ -1,0 +1,12 @@
+{
+  "name": "workshop2",
+  "displayName": "workshop2",
+  "expo": {
+    "name": "workshop2",
+    "slug": "workshop2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
